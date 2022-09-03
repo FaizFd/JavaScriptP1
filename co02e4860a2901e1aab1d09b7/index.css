@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background: #E5E5E5;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.container1 {
+    background-color: black;
+    height: 50%;
+    max-width: 100%;
+}
+
+.container2 {
+    background-color: black;
+    height: 50%;
+    max-width: 100%;
+}
+
+.hcolor{
+    color: #F94F6D;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+}
+ 
+
+.pointbtn{
+width: 155px;
+height: 45px;
+left: 2px;
+top: 140px;
+}
+
+.pointbtng{
+width: 155px;
+height: 45px;
+left: 2px;
+top: 140px;
+}
+

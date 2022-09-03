@@ -1,0 +1,39 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://www.fontspace.com/cursed-timer-ulil-font-f29411" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h2>HOME</h2>
+                <div class="container1">
+                    <div class="hcolor">
+                     <h1 id="score-el">0</h1>
+                    </div>
+                </div>
+                <div class="pointbtn">
+                <button onclick="add1()">+1</button>
+                <button onclick="add2()">+2</button>
+                <button onclick="add3()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h2>GUEST</h2>
+                <div class="container2">
+                    <div class="hcolor">
+                    <h1 id="scoreg-el">0</h1>
+                    </div>
+                </div>
+                <div class="pointbtng">
+                <button onclick="addg1()">+1</button>
+                <button onclick="addg2()">+2</button>
+                <button onclick="addg3()">+3</button>
+                </div>
+            </div>
+        </div>
+        <center><br><br><br><button onclick="reset()">Reset Score</button></center>
+        <script src="index.js"></script>
+    </body>
+</html>
